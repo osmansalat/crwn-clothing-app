@@ -33,12 +33,12 @@ class App extends React.Component {
         });
       }
       setCurrentUser(userAuth);
-    })
+    });
   }
 
   componentWillUnmount () {
     this.unsubscribeFromAuth ();
-  }
+  } 
 
   render () {
     return (
