@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
- client/node_modules/.cache/default-development/0.pack
+/client/node_modules
 /.pnp
 .pnp.js
 
@@ -10,7 +10,7 @@
 /coverage
 
 # production
-# /build
+/build
 
 # misc
 .DS_Store
